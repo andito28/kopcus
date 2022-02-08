@@ -85,7 +85,7 @@
                                 <table class="table">
                                     <tr>
                                         <th>No</th>
-                                        <th>Nama Product</th>
+                                        <th>Nama Menu</th>
                                         <th>Qty</th>
                                         <th>Harga Satuan</th>
                                         <th>Subtotal</th>
