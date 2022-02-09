@@ -11,7 +11,7 @@
     <meta name="author" content="Sunset Orange">
     <title>@yield('title')</title>
     <link rel="apple-touch-icon" href="{{ asset('/images/logo/kopcus.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="shortcut icon" href="{{ asset('/images/logo/kopcus.png') }}">
     <link href="../../../../../css2.css?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
         rel="stylesheet">
 

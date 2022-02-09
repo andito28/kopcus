@@ -18,8 +18,8 @@ $roleid = User_role::find($role);
     <meta name="keywords" content="UD, bangunan, cirebon">
     <meta name="author" content="Sunset Orange">
     <title>{{ $title }}</title>
-    <link rel="apple-touch-icon" href="{{ asset('/images/logo/logosmk.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <link rel="apple-touch-icon" href="{{ asset('/images/logo/kopcus.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/images/logo/kopcus.png') }}">
 
     @stack('css')
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/plugins/extensions/ext-component-toastr.min.css') }}">
@@ -122,7 +122,6 @@ $roleid = User_role::find($role);
 
 
                 @foreach ($menu as $m)
-
                     {{-- menu 1 --}}
                     @if ($title == $m->title)
                         <li class="active nav-item">

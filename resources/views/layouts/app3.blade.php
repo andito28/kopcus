@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Auth;
     <meta name="keywords" content="UD, bangunan, cirebon">
     <meta name="author" content="Sunset Orange">
     <title></title>
-    <link rel="apple-touch-icon" href="{{ asset('/images/logo/logosmk.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/images/logo/logosmk.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('/images/logo/kopcus.png') }}">
+    <link rel="shortcut icon" href="{{ asset('/images/logo/kopcus.png') }}">
 
     @stack('css')
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/plugins/extensions/ext-component-toastr.min.css') }}">
@@ -56,13 +56,13 @@ use Illuminate\Support\Facades\Auth;
 
     <!-- BEGIN: Header-->
     <nav class="header-navbar navbar navbar-expand-lg align-items-center navbar-dark navbar-shadow">
-    
+
         <div class="navbar-container d-flex content">
             <div class="bookmark-wrapper d-flex align-items-center">
-            <a class="navbar-brand" href="">
-                        
-                        <h3 class="brand-text">POCKETZ</h3>
-            </a>
+                <a class="navbar-brand" href="">
+
+                    <h3 class="brand-text">POCKETZ</h3>
+                </a>
             </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -74,7 +74,7 @@ use Illuminate\Support\Facades\Auth;
 
 
     <!-- BEGIN: Main Menu-->
-    
+
     <!-- END: Main Menu-->
 
     @yield('content')
@@ -226,7 +226,8 @@ use Illuminate\Support\Facades\Auth;
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
         <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy;
-                {{ date('Y') }}<a class="ml-25">Sunset Orange</a><span class="d-none d-sm-inline-block">, All
+                {{ date('Y') }}<a class="ml-25">Sunset Orange</a><span class="d-none d-sm-inline-block">,
+                    All
                     rights
                     Reserved</span></span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i
                     data-feather="heart"></i></span></p>
